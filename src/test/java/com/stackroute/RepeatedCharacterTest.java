@@ -11,18 +11,16 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import com.stackroute.RepeatedCharacter;
-
 @RunWith(Parameterized.class)
 public class RepeatedCharacterTest {
 	private static final String MSG_01 = "The method should return the most repeated character from the input string. If more than one character is repeated same number of times, return the smallest one";
 	private static final String MSG_02 = "Method should display \'No characters repeated\' for Null, Empty string or if no characters are repeated";
 
 	private String input;
-	private String expected;
+	private Character expected;
 	private String message;
 
-	public RepeatedCharacterTest(String input, String expected, String message) {
+	public RepeatedCharacterTest(String input, Character expected, String message) {
 		super();
 		this.input = input;
 		this.expected = expected;

@@ -17,8 +17,6 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
-import com.stackroute.RepeatedCharacter;
-
 @RunWith(Parameterized.class)
 public class RepeatedCharacter_e2e_Test {
 	private static final String MSG_01 = "The method should return the most repeated character from the input string. If more than one character is repeated same number of times, return the smallest one";
