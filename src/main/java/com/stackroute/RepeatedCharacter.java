@@ -48,6 +48,9 @@ public class RepeatedCharacter {
 				}
 			}
 		}
+		if(maxCount==1) {
+			return '0';
+		}
 		return maxChar;
 	}
 }
